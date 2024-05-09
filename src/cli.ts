@@ -497,8 +497,8 @@ See more help with --help`,
   }
 }
 
-const typescriptExtensions = [".ts", ".tsx"];
-const javascriptExtensions = [".js", ".jsx"];
+const typescriptExtensions = [".ts", ".tsx", ".mts"];
+const javascriptExtensions = [".js", ".jsx", ".mjs"];
 
 /**
  * Validate if the file extension is ts or tsx.
